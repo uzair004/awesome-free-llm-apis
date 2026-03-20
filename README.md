@@ -5,15 +5,15 @@
 
 **Freshness:** 🟢 Verified <=30 days | 🟡 Verified >30 days | 🔴 Verified >90 days
 
-| Provider | Free Tier Type | RPM | Daily Limit | SDK Package | Freshness |
-| --- | --- | --- | --- | --- | --- |
-| [Cerebras](https://cloud.cerebras.ai) | perpetual | 30 | 1,000,000 TPD | `@ai-sdk/cerebras` | 🟢 |
-| [GitHub Models](https://github.com/marketplace/models) | perpetual | - | - | `@ai-sdk/openai` | 🟢 |
-| [Google AI Studio](https://aistudio.google.com) | perpetual | - | - | `@ai-sdk/google` | 🟢 |
-| [Groq](https://console.groq.com) | perpetual | - | - | `@ai-sdk/groq` | 🟢 |
-| [Mistral](https://console.mistral.ai) | perpetual | 1 RPS | - | `@ai-sdk/mistral` | 🟢 |
-| [NVIDIA NIM](https://build.nvidia.com) | rate-limited | 40 | - | `@ai-sdk/openai` | 🟢 |
-| [SambaNova](https://cloud.sambanova.ai) | perpetual | 20 | 20 RPD | `sambanova-ai-provider` | 🟢 |
+| Provider                                               | Free Tier Type | RPM   | Daily Limit   | SDK Package             | Freshness |
+| ------------------------------------------------------ | -------------- | ----- | ------------- | ----------------------- | --------- |
+| [Cerebras](https://cloud.cerebras.ai)                  | perpetual      | 30    | 1,000,000 TPD | `@ai-sdk/cerebras`      | 🟢        |
+| [GitHub Models](https://github.com/marketplace/models) | perpetual      | -     | -             | `@ai-sdk/openai`        | 🟢        |
+| [Google AI Studio](https://aistudio.google.com)        | perpetual      | -     | -             | `@ai-sdk/google`        | 🟢        |
+| [Groq](https://console.groq.com)                       | perpetual      | -     | -             | `@ai-sdk/groq`          | 🟢        |
+| [Mistral](https://console.mistral.ai)                  | perpetual      | 1 RPS | -             | `@ai-sdk/mistral`       | 🟢        |
+| [NVIDIA NIM](https://build.nvidia.com)                 | rate-limited   | 40    | -             | `@ai-sdk/openai`        | 🟢        |
+| [SambaNova](https://cloud.sambanova.ai)                | perpetual      | 20    | 20 RPD        | `sambanova-ai-provider` | 🟢        |
 
 ## Cerebras
 
@@ -41,12 +41,12 @@
 
 ### Models
 
-| Model ID | Free | Tier | Capabilities | Context Window | Max Output |
-| --- | --- | --- | --- | --- | --- |
-| `gpt-oss-120b` | Yes | frontier | tools, structuredOutput | 131.1K | 8.2K |
-| `qwen-3-235b-a22b-instruct-2507` | Yes | frontier | tools, reasoning, structuredOutput | 131.1K | 8.2K |
-| `llama3.1-8b` | Yes | mid | tools, structuredOutput | 131.1K | 8.2K |
-| `zai-glm-4.7` | Yes | high | tools, reasoning, structuredOutput | 131.1K | 8.2K |
+| Model ID                         | Free | Tier     | Capabilities                       | Context Window | Max Output |
+| -------------------------------- | ---- | -------- | ---------------------------------- | -------------- | ---------- |
+| `gpt-oss-120b`                   | Yes  | frontier | tools, structuredOutput            | 131.1K         | 8.2K       |
+| `qwen-3-235b-a22b-instruct-2507` | Yes  | frontier | tools, reasoning, structuredOutput | 131.1K         | 8.2K       |
+| `llama3.1-8b`                    | Yes  | mid      | tools, structuredOutput            | 131.1K         | 8.2K       |
+| `zai-glm-4.7`                    | Yes  | high     | tools, reasoning, structuredOutput | 131.1K         | 8.2K       |
 
 ### Rate Limit Headers
 
@@ -83,12 +83,12 @@
 
 ### Models
 
-| Model ID | Free | Tier | Capabilities | Context Window | Max Output |
-| --- | --- | --- | --- | --- | --- |
-| `gpt-4o` | Yes | frontier | tools, vision, structuredOutput | 128K | 4.1K |
-| `gpt-4o-mini` | Yes | high | tools, vision, structuredOutput | 128K | 4.1K |
-| `o3-mini` | Yes | frontier | reasoning, structuredOutput | 128K | 4.1K |
-| `o4-mini` | Yes | frontier | tools, reasoning, vision, structuredOutput | 128K | 4.1K |
+| Model ID      | Free | Tier     | Capabilities                               | Context Window | Max Output |
+| ------------- | ---- | -------- | ------------------------------------------ | -------------- | ---------- |
+| `gpt-4o`      | Yes  | frontier | tools, vision, structuredOutput            | 128K           | 4.1K       |
+| `gpt-4o-mini` | Yes  | high     | tools, vision, structuredOutput            | 128K           | 4.1K       |
+| `o3-mini`     | Yes  | frontier | reasoning, structuredOutput                | 128K           | 4.1K       |
+| `o4-mini`     | Yes  | frontier | tools, reasoning, vision, structuredOutput | 128K           | 4.1K       |
 
 ### Notes
 
@@ -119,12 +119,12 @@
 
 ### Models
 
-| Model ID | Free | Tier | Capabilities | Context Window | Max Output |
-| --- | --- | --- | --- | --- | --- |
-| `gemini-2.5-flash` | Yes | frontier | tools, reasoning, vision, structuredOutput | 1.0M | 65.5K |
-| `gemini-2.5-pro` | Yes | frontier | tools, reasoning, vision, structuredOutput | 1.0M | 65.5K |
-| `gemini-2.5-flash-lite` | Yes | high | tools, vision, structuredOutput | 1.0M | 65.5K |
-| `gemini-3-flash-preview` | Yes | frontier | tools, reasoning, vision, structuredOutput | 1.0M | 65.5K |
+| Model ID                 | Free | Tier     | Capabilities                               | Context Window | Max Output |
+| ------------------------ | ---- | -------- | ------------------------------------------ | -------------- | ---------- |
+| `gemini-2.5-flash`       | Yes  | frontier | tools, reasoning, vision, structuredOutput | 1.0M           | 65.5K      |
+| `gemini-2.5-pro`         | Yes  | frontier | tools, reasoning, vision, structuredOutput | 1.0M           | 65.5K      |
+| `gemini-2.5-flash-lite`  | Yes  | high     | tools, vision, structuredOutput            | 1.0M           | 65.5K      |
+| `gemini-3-flash-preview` | Yes  | frontier | tools, reasoning, vision, structuredOutput | 1.0M           | 65.5K      |
 
 ### Notes
 
@@ -154,12 +154,12 @@
 
 ### Models
 
-| Model ID | Free | Tier | Capabilities | Context Window | Max Output |
-| --- | --- | --- | --- | --- | --- |
-| `meta-llama/llama-4-scout-17b-16e-instruct` | Yes | high | tools, vision, structuredOutput | 131.1K | 8.2K |
-| `llama-3.3-70b-versatile` | Yes | high | tools, structuredOutput | 131.1K | 32.8K |
-| `qwen/qwen3-32b` | Yes | mid | tools, reasoning, structuredOutput | 131.1K | 8.2K |
-| `moonshotai/kimi-k2-instruct` | Yes | frontier | tools, structuredOutput | 131.1K | 8.2K |
+| Model ID                                    | Free | Tier     | Capabilities                       | Context Window | Max Output |
+| ------------------------------------------- | ---- | -------- | ---------------------------------- | -------------- | ---------- |
+| `meta-llama/llama-4-scout-17b-16e-instruct` | Yes  | high     | tools, vision, structuredOutput    | 131.1K         | 8.2K       |
+| `llama-3.3-70b-versatile`                   | Yes  | high     | tools, structuredOutput            | 131.1K         | 32.8K      |
+| `qwen/qwen3-32b`                            | Yes  | mid      | tools, reasoning, structuredOutput | 131.1K         | 8.2K       |
+| `moonshotai/kimi-k2-instruct`               | Yes  | frontier | tools, structuredOutput            | 131.1K         | 8.2K       |
 
 ### Rate Limit Headers
 
@@ -199,12 +199,12 @@
 
 ### Models
 
-| Model ID | Free | Tier | Capabilities | Context Window | Max Output |
-| --- | --- | --- | --- | --- | --- |
-| `mistral-large-latest` | Yes | frontier | tools, structuredOutput | 131.1K | 8.2K |
-| `mistral-small-latest` | Yes | mid | tools, structuredOutput | 131.1K | 8.2K |
-| `codestral-latest` | Yes | high | - | 262.1K | 8.2K |
-| `pixtral-large-latest` | Yes | high | tools, vision, structuredOutput | 131.1K | 8.2K |
+| Model ID               | Free | Tier     | Capabilities                    | Context Window | Max Output |
+| ---------------------- | ---- | -------- | ------------------------------- | -------------- | ---------- |
+| `mistral-large-latest` | Yes  | frontier | tools, structuredOutput         | 131.1K         | 8.2K       |
+| `mistral-small-latest` | Yes  | mid      | tools, structuredOutput         | 131.1K         | 8.2K       |
+| `codestral-latest`     | Yes  | high     | -                               | 262.1K         | 8.2K       |
+| `pixtral-large-latest` | Yes  | high     | tools, vision, structuredOutput | 131.1K         | 8.2K       |
 
 ### Notes
 
@@ -238,13 +238,13 @@
 
 ### Models
 
-| Model ID | Free | Tier | Capabilities | Context Window | Max Output |
-| --- | --- | --- | --- | --- | --- |
-| `deepseek-ai/deepseek-v3.2` | Yes | frontier | tools, reasoning, structuredOutput | 131.1K | 16.4K |
-| `moonshotai/kimi-k2.5` | Yes | frontier | tools, reasoning, structuredOutput | 131.1K | 32.8K |
-| `nvidia/llama-3.1-nemotron-ultra-253b-v1` | Yes | frontier | tools, reasoning, structuredOutput | 131.1K | 16.4K |
-| `meta/llama-4-maverick-17b-128e-instruct` | Yes | high | tools, vision, structuredOutput | 131.1K | 8.2K |
-| `qwen/qwen3-coder-480b-a35b-instruct` | Yes | frontier | tools, structuredOutput | 262.1K | 16.4K |
+| Model ID                                  | Free | Tier     | Capabilities                       | Context Window | Max Output |
+| ----------------------------------------- | ---- | -------- | ---------------------------------- | -------------- | ---------- |
+| `deepseek-ai/deepseek-v3.2`               | Yes  | frontier | tools, reasoning, structuredOutput | 131.1K         | 16.4K      |
+| `moonshotai/kimi-k2.5`                    | Yes  | frontier | tools, reasoning, structuredOutput | 131.1K         | 32.8K      |
+| `nvidia/llama-3.1-nemotron-ultra-253b-v1` | Yes  | frontier | tools, reasoning, structuredOutput | 131.1K         | 16.4K      |
+| `meta/llama-4-maverick-17b-128e-instruct` | Yes  | high     | tools, vision, structuredOutput    | 131.1K         | 8.2K       |
+| `qwen/qwen3-coder-480b-a35b-instruct`     | Yes  | frontier | tools, structuredOutput            | 262.1K         | 16.4K      |
 
 ### Notes
 
@@ -280,14 +280,14 @@
 
 ### Models
 
-| Model ID | Free | Tier | Capabilities | Context Window | Max Output |
-| --- | --- | --- | --- | --- | --- |
-| `DeepSeek-R1-0528` | Yes | frontier | reasoning | 131.1K | 16.4K |
-| `Deepseek-V3.1` | Yes | frontier | tools, structuredOutput | 131.1K | 16.4K |
-| `DeepSeek-V3-0324` | Yes | frontier | tools, structuredOutput | 131.1K | 16.4K |
-| `Meta-Llama-3.3-70B-Instruct` | Yes | high | tools, structuredOutput | 131.1K | 8.2K |
-| `Qwen3-235B-A22B-Instruct-2507` | Yes | high | tools, reasoning, structuredOutput | 131.1K | 8.2K |
-| `Llama-4-Maverick-17B-128E-Instruct` | Yes | high | tools, vision, structuredOutput | 131.1K | 8.2K |
+| Model ID                             | Free | Tier     | Capabilities                       | Context Window | Max Output |
+| ------------------------------------ | ---- | -------- | ---------------------------------- | -------------- | ---------- |
+| `DeepSeek-R1-0528`                   | Yes  | frontier | reasoning                          | 131.1K         | 16.4K      |
+| `Deepseek-V3.1`                      | Yes  | frontier | tools, structuredOutput            | 131.1K         | 16.4K      |
+| `DeepSeek-V3-0324`                   | Yes  | frontier | tools, structuredOutput            | 131.1K         | 16.4K      |
+| `Meta-Llama-3.3-70B-Instruct`        | Yes  | high     | tools, structuredOutput            | 131.1K         | 8.2K       |
+| `Qwen3-235B-A22B-Instruct-2507`      | Yes  | high     | tools, reasoning, structuredOutput | 131.1K         | 8.2K       |
+| `Llama-4-Maverick-17B-128E-Instruct` | Yes  | high     | tools, vision, structuredOutput    | 131.1K         | 8.2K       |
 
 ### Rate Limit Headers
 
@@ -308,7 +308,9 @@
 ### Fetch the registry
 
 ```js
-const response = await fetch('https://raw.githubusercontent.com/user/awesome-free-llm-apis/main/registry.json');
+const response = await fetch(
+  'https://raw.githubusercontent.com/user/awesome-free-llm-apis/main/registry.json',
+);
 const registry = await response.json();
 console.log(`${registry.providerCount} providers available`);
 ```
@@ -317,16 +319,17 @@ console.log(`${registry.providerCount} providers available`);
 
 ```js
 const provider = registry.providers['cerebras'];
-const freeModels = provider.models.filter(m => m.free);
-console.log(freeModels.map(m => m.id));
+const freeModels = provider.models.filter((m) => m.free);
+console.log(freeModels.map((m) => m.id));
 ```
 
 ### Find providers with reasoning models
 
 ```js
-const reasoningProviders = Object.values(registry.providers)
-  .filter(p => p.models.some(m => m.capabilities.includes('reasoning')));
-console.log(reasoningProviders.map(p => p.name));
+const reasoningProviders = Object.values(registry.providers).filter((p) =>
+  p.models.some((m) => m.capabilities.includes('reasoning')),
+);
+console.log(reasoningProviders.map((p) => p.name));
 ```
 
 ## Contributing

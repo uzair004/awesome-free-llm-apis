@@ -38,10 +38,7 @@
         {
           "id": "gpt-oss-120b",
           "free": true,
-          "capabilities": [
-            "tools",
-            "structuredOutput"
-          ],
+          "capabilities": ["tools", "structuredOutput"],
           "tier": "frontier",
           "contextWindow": 131072,
           "maxOutputTokens": 8192
@@ -49,11 +46,7 @@
         {
           "id": "qwen-3-235b-a22b-instruct-2507",
           "free": true,
-          "capabilities": [
-            "tools",
-            "reasoning",
-            "structuredOutput"
-          ],
+          "capabilities": ["tools", "reasoning", "structuredOutput"],
           "tier": "frontier",
           "contextWindow": 131072,
           "maxOutputTokens": 8192
@@ -61,10 +54,7 @@
         {
           "id": "llama3.1-8b",
           "free": true,
-          "capabilities": [
-            "tools",
-            "structuredOutput"
-          ],
+          "capabilities": ["tools", "structuredOutput"],
           "tier": "mid",
           "contextWindow": 131072,
           "maxOutputTokens": 8192
@@ -72,11 +62,7 @@
         {
           "id": "zai-glm-4.7",
           "free": true,
-          "capabilities": [
-            "tools",
-            "reasoning",
-            "structuredOutput"
-          ],
+          "capabilities": ["tools", "reasoning", "structuredOutput"],
           "tier": "high",
           "contextWindow": 131072,
           "maxOutputTokens": 8192
@@ -114,11 +100,7 @@
         {
           "id": "gpt-4o",
           "free": true,
-          "capabilities": [
-            "tools",
-            "vision",
-            "structuredOutput"
-          ],
+          "capabilities": ["tools", "vision", "structuredOutput"],
           "tier": "frontier",
           "contextWindow": 128000,
           "maxOutputTokens": 4096,
@@ -130,11 +112,7 @@
         {
           "id": "gpt-4o-mini",
           "free": true,
-          "capabilities": [
-            "tools",
-            "vision",
-            "structuredOutput"
-          ],
+          "capabilities": ["tools", "vision", "structuredOutput"],
           "tier": "high",
           "contextWindow": 128000,
           "maxOutputTokens": 4096,
@@ -146,10 +124,7 @@
         {
           "id": "o3-mini",
           "free": true,
-          "capabilities": [
-            "reasoning",
-            "structuredOutput"
-          ],
+          "capabilities": ["reasoning", "structuredOutput"],
           "tier": "frontier",
           "contextWindow": 128000,
           "maxOutputTokens": 4096,
@@ -161,12 +136,7 @@
         {
           "id": "o4-mini",
           "free": true,
-          "capabilities": [
-            "tools",
-            "reasoning",
-            "vision",
-            "structuredOutput"
-          ],
+          "capabilities": ["tools", "reasoning", "vision", "structuredOutput"],
           "tier": "frontier",
           "contextWindow": 128000,
           "maxOutputTokens": 4096,
@@ -209,12 +179,7 @@
         {
           "id": "gemini-2.5-flash",
           "free": true,
-          "capabilities": [
-            "tools",
-            "reasoning",
-            "vision",
-            "structuredOutput"
-          ],
+          "capabilities": ["tools", "reasoning", "vision", "structuredOutput"],
           "tier": "frontier",
           "contextWindow": 1048576,
           "maxOutputTokens": 65536,
@@ -227,12 +192,7 @@
         {
           "id": "gemini-2.5-pro",
           "free": true,
-          "capabilities": [
-            "tools",
-            "reasoning",
-            "vision",
-            "structuredOutput"
-          ],
+          "capabilities": ["tools", "reasoning", "vision", "structuredOutput"],
           "tier": "frontier",
           "contextWindow": 1048576,
           "maxOutputTokens": 65536,
@@ -245,11 +205,7 @@
         {
           "id": "gemini-2.5-flash-lite",
           "free": true,
-          "capabilities": [
-            "tools",
-            "vision",
-            "structuredOutput"
-          ],
+          "capabilities": ["tools", "vision", "structuredOutput"],
           "tier": "high",
           "contextWindow": 1048576,
           "maxOutputTokens": 65536,
@@ -262,12 +218,7 @@
         {
           "id": "gemini-3-flash-preview",
           "free": true,
-          "capabilities": [
-            "tools",
-            "reasoning",
-            "vision",
-            "structuredOutput"
-          ],
+          "capabilities": ["tools", "reasoning", "vision", "structuredOutput"],
           "tier": "frontier",
           "contextWindow": 1048576,
           "maxOutputTokens": 65536,
@@ -316,11 +267,7 @@
         {
           "id": "meta-llama/llama-4-scout-17b-16e-instruct",
           "free": true,
-          "capabilities": [
-            "tools",
-            "vision",
-            "structuredOutput"
-          ],
+          "capabilities": ["tools", "vision", "structuredOutput"],
           "tier": "high",
           "contextWindow": 131072,
           "maxOutputTokens": 8192,
@@ -334,10 +281,7 @@
         {
           "id": "llama-3.3-70b-versatile",
           "free": true,
-          "capabilities": [
-            "tools",
-            "structuredOutput"
-          ],
+          "capabilities": ["tools", "structuredOutput"],
           "tier": "high",
           "contextWindow": 131072,
           "maxOutputTokens": 32768,
@@ -351,11 +295,7 @@
         {
           "id": "qwen/qwen3-32b",
           "free": true,
-          "capabilities": [
-            "tools",
-            "reasoning",
-            "structuredOutput"
-          ],
+          "capabilities": ["tools", "reasoning", "structuredOutput"],
           "tier": "mid",
           "contextWindow": 131072,
           "maxOutputTokens": 8192,
@@ -369,10 +309,7 @@
         {
           "id": "moonshotai/kimi-k2-instruct",
           "free": true,
-          "capabilities": [
-            "tools",
-            "structuredOutput"
-          ],
+          "capabilities": ["tools", "structuredOutput"],
           "tier": "frontier",
           "contextWindow": 131072,
           "maxOutputTokens": 8192,
@@ -419,10 +356,7 @@
         {
           "id": "mistral-large-latest",
           "free": true,
-          "capabilities": [
-            "tools",
-            "structuredOutput"
-          ],
+          "capabilities": ["tools", "structuredOutput"],
           "tier": "frontier",
           "contextWindow": 131072,
           "maxOutputTokens": 8192
@@ -430,10 +364,7 @@
         {
           "id": "mistral-small-latest",
           "free": true,
-          "capabilities": [
-            "tools",
-            "structuredOutput"
-          ],
+          "capabilities": ["tools", "structuredOutput"],
           "tier": "mid",
           "contextWindow": 131072,
           "maxOutputTokens": 8192
@@ -449,11 +380,7 @@
         {
           "id": "pixtral-large-latest",
           "free": true,
-          "capabilities": [
-            "tools",
-            "vision",
-            "structuredOutput"
-          ],
+          "capabilities": ["tools", "vision", "structuredOutput"],
           "tier": "high",
           "contextWindow": 131072,
           "maxOutputTokens": 8192
@@ -495,11 +422,7 @@
         {
           "id": "deepseek-ai/deepseek-v3.2",
           "free": true,
-          "capabilities": [
-            "tools",
-            "reasoning",
-            "structuredOutput"
-          ],
+          "capabilities": ["tools", "reasoning", "structuredOutput"],
           "tier": "frontier",
           "contextWindow": 131072,
           "maxOutputTokens": 16384
@@ -507,11 +430,7 @@
         {
           "id": "moonshotai/kimi-k2.5",
           "free": true,
-          "capabilities": [
-            "tools",
-            "reasoning",
-            "structuredOutput"
-          ],
+          "capabilities": ["tools", "reasoning", "structuredOutput"],
           "tier": "frontier",
           "contextWindow": 131072,
           "maxOutputTokens": 32768
@@ -519,11 +438,7 @@
         {
           "id": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
           "free": true,
-          "capabilities": [
-            "tools",
-            "reasoning",
-            "structuredOutput"
-          ],
+          "capabilities": ["tools", "reasoning", "structuredOutput"],
           "tier": "frontier",
           "contextWindow": 131072,
           "maxOutputTokens": 16384
@@ -531,11 +446,7 @@
         {
           "id": "meta/llama-4-maverick-17b-128e-instruct",
           "free": true,
-          "capabilities": [
-            "tools",
-            "vision",
-            "structuredOutput"
-          ],
+          "capabilities": ["tools", "vision", "structuredOutput"],
           "tier": "high",
           "contextWindow": 131072,
           "maxOutputTokens": 8192
@@ -543,10 +454,7 @@
         {
           "id": "qwen/qwen3-coder-480b-a35b-instruct",
           "free": true,
-          "capabilities": [
-            "tools",
-            "structuredOutput"
-          ],
+          "capabilities": ["tools", "structuredOutput"],
           "tier": "frontier",
           "contextWindow": 262144,
           "maxOutputTokens": 16384
@@ -596,9 +504,7 @@
         {
           "id": "DeepSeek-R1-0528",
           "free": true,
-          "capabilities": [
-            "reasoning"
-          ],
+          "capabilities": ["reasoning"],
           "tier": "frontier",
           "contextWindow": 131072,
           "maxOutputTokens": 16384,
@@ -610,10 +516,7 @@
         {
           "id": "Deepseek-V3.1",
           "free": true,
-          "capabilities": [
-            "tools",
-            "structuredOutput"
-          ],
+          "capabilities": ["tools", "structuredOutput"],
           "tier": "frontier",
           "contextWindow": 131072,
           "maxOutputTokens": 16384,
@@ -625,10 +528,7 @@
         {
           "id": "DeepSeek-V3-0324",
           "free": true,
-          "capabilities": [
-            "tools",
-            "structuredOutput"
-          ],
+          "capabilities": ["tools", "structuredOutput"],
           "tier": "frontier",
           "contextWindow": 131072,
           "maxOutputTokens": 16384,
@@ -640,10 +540,7 @@
         {
           "id": "Meta-Llama-3.3-70B-Instruct",
           "free": true,
-          "capabilities": [
-            "tools",
-            "structuredOutput"
-          ],
+          "capabilities": ["tools", "structuredOutput"],
           "tier": "high",
           "contextWindow": 131072,
           "maxOutputTokens": 8192,
@@ -655,11 +552,7 @@
         {
           "id": "Qwen3-235B-A22B-Instruct-2507",
           "free": true,
-          "capabilities": [
-            "tools",
-            "reasoning",
-            "structuredOutput"
-          ],
+          "capabilities": ["tools", "reasoning", "structuredOutput"],
           "tier": "high",
           "contextWindow": 131072,
           "maxOutputTokens": 8192
@@ -667,11 +560,7 @@
         {
           "id": "Llama-4-Maverick-17B-128E-Instruct",
           "free": true,
-          "capabilities": [
-            "tools",
-            "vision",
-            "structuredOutput"
-          ],
+          "capabilities": ["tools", "vision", "structuredOutput"],
           "tier": "high",
           "contextWindow": 131072,
           "maxOutputTokens": 8192
